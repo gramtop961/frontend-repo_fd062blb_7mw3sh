@@ -12,7 +12,7 @@ export default function App() {
   const handleReset = () => setCount(0)
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-white to-blue-50 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-green-50 flex items-center justify-center px-4">
       <div className="w-full max-w-2xl bg-white/70 backdrop-blur rounded-3xl shadow-2xl p-8">
         <Header />
         <CounterDisplay count={count} />
